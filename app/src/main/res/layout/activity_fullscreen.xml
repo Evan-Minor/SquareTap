@@ -35,40 +35,17 @@
             android:layout_gravity="bottom|center_horizontal"
             android:background="@color/black_overlay"
             android:orientation="horizontal"
-            tools:ignore="UselessParent"/>
+            tools:ignore="UselessParent">
 
-        <TextView
-            android:id="@+id/txtTTS"
-            android:layout_width="match_parent"
-            android:layout_height="241dp"
-            android:gravity="center"
-            android:text="Tap the Square"
-            android:textColor="#F8F3EEEE"
-            android:textSize="36sp"
-            android:textStyle="bold" />
+            <Button
+                android:id="@+id/dummy_button"
+                style="?metaButtonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dummy_button" />
 
-        <TextView
-            android:id="@+id/txtTATS"
-            android:layout_width="match_parent"
-            android:layout_height="142dp"
-            android:gravity="center"
-            android:text="Tap Anywhere To Start"
-            android:textColor="#F8F3EEEE"
-            android:textSize="36sp"
-            android:textStyle="bold"
-            android:translationY="500" />
-
-        <TextView
-            android:id="@+id/txtInstructions"
-            android:layout_width="363dp"
-            android:layout_height="wrap_content"
-            android:gravity="center|left"
-            android:text="Instructions: Tap the screen whenever a blue square meets the red square."
-            android:textColor="#F7F2F2"
-            android:textSize="24sp"
-            android:translationX="25"
-            android:translationY="200" />
-
+        </LinearLayout>
     </FrameLayout>
 
 </FrameLayout>
