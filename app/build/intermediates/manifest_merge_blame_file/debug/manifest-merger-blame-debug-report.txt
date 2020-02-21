@@ -6,46 +6,46 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="15"
-8-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml
+8-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml
+9-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml:5:5-23:19
+11-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:5:5-23:19
 12        android:allowBackup="true"
-12-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.0.1] C:\Users\adam1400\.gradle\caches\transforms-2\files-2.1\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\core-1.0.1\AndroidManifest.xml:22:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml:7:9-43
+15-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
-16-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml:8:9-41
+16-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml:9:9-54
+17-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml:10:9-35
+18-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:10:9-35
 19        android:theme="@style/AppTheme" >
-19-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml:11:9-40
+19-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:11:9-40
 20        <activity
-20-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml:12:9-22:20
+20-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:12:9-22:20
 21            android:name="com.example.squaretap.FullscreenActivity"
-21-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml:13:13-47
+21-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:13:13-47
 22            android:configChanges="orientation|keyboardHidden|screenSize"
-22-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml:14:13-74
+22-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:14:13-74
 23            android:label="@string/app_name"
-23-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml:15:13-45
+23-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:15:13-45
 24            android:theme="@style/FullscreenTheme" >
-24-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml:16:13-51
+24-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:16:13-51
 25            <intent-filter>
-25-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml:17:13-21:29
+25-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:17:13-21:29
 26                <action android:name="android.intent.action.MAIN" />
-26-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml:18:17-69
-26-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml:18:25-66
+26-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:18:17-69
+26-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:18:25-66
 27
 28                <category android:name="android.intent.category.LAUNCHER" />
-28-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml:20:17-77
-28-->C:\Users\adam1400\Documents\GitHub\SquareTap\SquareTap\app\src\main\AndroidManifest.xml:20:27-74
+28-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:20:17-77
+28-->C:\Users\adam1400\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:20:27-74
 29            </intent-filter>
 30        </activity>
 31    </application>
