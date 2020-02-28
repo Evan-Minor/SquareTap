@@ -25,7 +25,34 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#476BA7"
         android:fitsSystemWindows="true">
+
+        <TextView
+            android:id="@+id/txtTtS2"
+            android:layout_width="331dp"
+            android:layout_height="114dp"
+            android:gravity="center|center_vertical"
+            android:text="Tap anywhere to start!"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:translationX="40"
+            android:translationY="450"
+            android:typeface="normal"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/obRS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF3232"
+            android:clickable="false"
+            android:scaleX=".25"
+            android:scaleY=".45"
+            android:textColor="#FF0000"
+            android:translationX="180"
+            android:translationY="295" />
 
         <LinearLayout
             android:id="@+id/fullscreen_content_controls"
@@ -35,17 +62,45 @@
             android:layout_gravity="bottom|center_horizontal"
             android:background="@color/black_overlay"
             android:orientation="horizontal"
-            tools:ignore="UselessParent">
+            tools:ignore="UselessParent" />
 
-            <Button
-                android:id="@+id/dummy_button"
-                style="?metaButtonBarButtonStyle"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/dummy_button" />
+        <TextView
+            android:id="@+id/txtTtS"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:gravity="center|center_vertical"
+            android:text="Tap the Square"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:translationY="50"
+            android:typeface="normal"
+            android:visibility="visible" />
 
-        </LinearLayout>
+        <TextView
+            android:id="@+id/txtInstructions"
+            android:layout_width="315dp"
+            android:layout_height="178dp"
+            android:gravity="center"
+            android:text="Instructions: Tap the screen whenever the      square meets the      square"
+            android:textColor="#FCFCFC"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:translationX="50"
+            android:translationY="200"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/ObBS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#32ACFF"
+            android:clickable="false"
+            android:scaleX=".25"
+            android:scaleY=".45"
+            android:textColor="#3F51B5"
+            android:translationX="200"
+            android:translationY="267" />
     </FrameLayout>
 
 </FrameLayout>
