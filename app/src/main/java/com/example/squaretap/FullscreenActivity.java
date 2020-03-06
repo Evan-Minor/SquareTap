@@ -1,5 +1,6 @@
 package com.example.squaretap;
 
+
 import android.annotation.SuppressLint;
 
 import androidx.appcompat.app.ActionBar;
@@ -10,6 +11,15 @@ import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
 
+//This is the code to make a button work
+/*
+
+val button: Button = findViewById(R.id.button_send)
+button.setOnClickListener {
+    // Do something in response to button click
+}
+
+ */
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
  * status bar and navigation/system bar) with user interaction.
