@@ -45,7 +45,7 @@
         android:layout_width="250dp"
         android:layout_height="100dp"
         android:text="Reset Score"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textSize="24sp"
         android:translationX="90"
         android:translationY="-260" />
@@ -55,7 +55,7 @@
         android:layout_width="250dp"
         android:layout_height="100dp"
         android:text="Quit"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textSize="24sp"
         android:translationX="90"
         android:translationY="-270" />
@@ -65,7 +65,7 @@
         android:layout_width="250dp"
         android:layout_height="100dp"
         android:text="Return"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textSize="24sp"
         android:translationX="90"
         android:translationY="-280" />
