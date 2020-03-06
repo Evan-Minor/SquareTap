@@ -89,7 +89,7 @@ public class FullscreenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_fullscreen);
+        setContentView(R.layout.HomeScreen);
 
         mVisible = true;
         mControlsView = findViewById(R.id.fullscreen_content_controls);
