@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context=".Fail">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/dummy_content"
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#995353"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent" />
+
+        <TextView
+            android:id="@+id/txtYourScore"
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:gravity="center"
+            android:text="Your Score: XXX"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtTryAgain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to go again!"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:translationX="75"
+            android:translationY="300" />
+
+        <TextView
+            android:id="@+id/txtQuit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quit"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:translationX="165"
+            android:translationY="575" />
+
+        <TextView
+            android:id="@+id/txtReminder"
+            android:layout_width="155dp"
+            android:layout_height="67dp"
+            android:gravity="center"
+            android:text="Reminder: Tap whem the blue square contacts the red square"
+            android:textColor="#FFFFFF"
+            android:translationX="125"
+            android:translationY="630" />
+
+        <ImageButton
+            android:id="@+id/btnSettings"
+            android:layout_width="59dp"
+            android:layout_height="57dp"
+            android:background="#00FFFFFF"
+            android:rotation="180"
+            android:scaleX="2"
+            android:scaleY="-2"
+            android:translationX="350"
+            app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+    </FrameLayout>
+
+</FrameLayout>
