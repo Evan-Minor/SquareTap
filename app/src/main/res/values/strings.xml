@@ -5,4 +5,8 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
 
     <string name="title_activity_fail">Fail</string>
+
+    <string name="title_activity_play">play</string>
+
+    <string name="title_activity_home">home</string>
 </resources>

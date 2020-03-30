@@ -3,8 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0099cc"
-    tools:context=".FullscreenActivity">
+    tools:context=".home"
+    android:background="#0099cc">
+
 
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,
@@ -101,6 +102,16 @@
             android:textColor="#3F51B5"
             android:translationX="200"
             android:translationY="267" />
+
+        <Button
+            android:id="@+id/btnTrigger"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+
+
+
     </FrameLayout>
+
 
 </FrameLayout>

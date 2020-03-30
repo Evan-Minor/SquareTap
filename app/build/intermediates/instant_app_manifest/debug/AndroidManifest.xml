@@ -19,6 +19,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="com.example.squaretap.home"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_home"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="com.example.squaretap.play"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_play"
+            android:theme="@style/FullscreenTheme" />
+        <activity
             android:name="com.example.squaretap.Fail"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_fail"
