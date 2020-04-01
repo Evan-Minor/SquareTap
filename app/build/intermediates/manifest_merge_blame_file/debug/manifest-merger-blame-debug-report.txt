@@ -11,7 +11,7 @@
 9-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:5:5-38:19
+11-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:5:5-32:19
 12        android:allowBackup="true"
 12-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,55 +29,44 @@
 19-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:11:9-40
 20        <activity
 20-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:12:9-16:63
-21            android:name="com.example.squaretap.home"
-21-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:13:13-33
+21            android:name="com.example.squaretap.settings"
+21-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:13:13-37
 22            android:configChanges="orientation|keyboardHidden|screenSize"
 22-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:14:13-74
-23            android:label="@string/title_activity_home"
-23-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:15:13-56
+23            android:label="@string/title_activity_settings"
+23-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:15:13-60
 24            android:theme="@style/FullscreenTheme" />
 24-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:16:13-51
 25        <activity
 25-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:17:9-21:54
-26            android:name="com.example.squaretap.play"
+26            android:name="com.example.squaretap.home"
 26-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:18:13-33
 27            android:configChanges="orientation|keyboardHidden|screenSize"
 27-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:19:13-74
-28            android:label="@string/title_activity_play"
+28            android:label="@string/title_activity_home"
 28-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:20:13-56
 29            android:theme="@style/FullscreenTheme" />
 29-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:21:13-51
 30        <activity
 30-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:22:9-26:54
-31            android:name="com.example.squaretap.Fail"
+31            android:name="com.example.squaretap.play"
 31-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:23:13-33
 32            android:configChanges="orientation|keyboardHidden|screenSize"
 32-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:24:13-74
-33            android:label="@string/title_activity_fail"
+33            android:label="@string/title_activity_play"
 33-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:25:13-56
 34            android:theme="@style/FullscreenTheme" />
 34-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:26:13-51
 35        <activity
-35-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:27:9-37:20
-36            android:name="com.example.squaretap.FullscreenActivity"
-36-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:28:13-47
+35-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:27:9-31:54
+36            android:name="com.example.squaretap.Fail"
+36-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:28:13-33
 37            android:configChanges="orientation|keyboardHidden|screenSize"
 37-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:29:13-74
-38            android:label="@string/app_name"
-38-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:30:13-45
-39            android:theme="@style/FullscreenTheme" >
+38            android:label="@string/title_activity_fail"
+38-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:30:13-56
+39            android:theme="@style/FullscreenTheme" />
 39-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:31:13-51
-40            <intent-filter>
-40-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:32:13-36:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:33:17-69
-41-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:33:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:35:17-77
-43-->C:\Users\Asqua\Documents\GitHub\SquareTap\app\src\main\AndroidManifest.xml:35:27-74
-44            </intent-filter>
-45        </activity>
-46    </application>
-47
-48</manifest>
+40    </application>
+41
+42</manifest>

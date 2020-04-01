@@ -9,4 +9,6 @@
     <string name="title_activity_play">play</string>
 
     <string name="title_activity_home">home</string>
+
+    <string name="title_activity_settings">settings</string>
 </resources>

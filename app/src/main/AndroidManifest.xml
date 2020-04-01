@@ -10,10 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".settings"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
             android:name=".home"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_home"
-            android:theme="@style/FullscreenTheme"></activity>
+            android:theme="@style/FullscreenTheme" />
         <activity
             android:name=".play"
             android:configChanges="orientation|keyboardHidden|screenSize"
