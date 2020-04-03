@@ -114,9 +114,9 @@ public class home extends AppCompatActivity {
         // while interacting with the UI.
      //   findViewById(R.id.dummy_button).setOnTouchListener(mDelayHideTouchListener);
 
-        Button btn = (Button)findViewById(R.id.btnTrigger);
+        Button trigBTN = (Button)findViewById(R.id.btnTrigger);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        trigBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(home.this, play.class));
