@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#888282"
     android:orientation="vertical"
-    tools:context=".settings">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <TextView
         android:id="@+id/txtSettings"
