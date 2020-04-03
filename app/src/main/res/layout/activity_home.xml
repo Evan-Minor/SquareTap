@@ -38,8 +38,8 @@
             android:textColor="#FFFFFF"
             android:textSize="36sp"
             android:textStyle="bold"
-            android:translationX="40"
-            android:translationY="450"
+            android:translationX="40dp"
+            android:translationY="450dp"
             android:typeface="normal"
             android:visibility="visible" />
 
@@ -52,8 +52,8 @@
             android:scaleX=".25"
             android:scaleY=".45"
             android:textColor="#FF0000"
-            android:translationX="180"
-            android:translationY="295" />
+            android:translationX="180dp"
+            android:translationY="295dp" />
 
         <LinearLayout
             android:id="@+id/fullscreen_content_controls"
@@ -74,7 +74,7 @@
             android:textColor="#FFFFFF"
             android:textSize="36sp"
             android:textStyle="bold"
-            android:translationY="50"
+            android:translationY="50dp"
             android:typeface="normal"
             android:visibility="visible" />
 
@@ -87,8 +87,8 @@
             android:textColor="#FCFCFC"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:translationX="50"
-            android:translationY="200"
+            android:translationX="50dp"
+            android:translationY="200dp"
             android:visibility="visible" />
 
         <Button
@@ -100,8 +100,8 @@
             android:scaleX=".25"
             android:scaleY=".45"
             android:textColor="#3F51B5"
-            android:translationX="200"
-            android:translationY="267" />
+            android:translationX="200dp"
+            android:translationY="267dp" />
 
         <Button
             android:id="@+id/btnTrigger"

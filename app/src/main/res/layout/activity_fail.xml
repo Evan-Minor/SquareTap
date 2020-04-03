@@ -46,8 +46,8 @@
             android:textColor="#FFFFFF"
             android:textSize="36sp"
             android:textStyle="bold"
-            android:translationX="75"
-            android:translationY="300" />
+            android:translationX="75dp"
+            android:translationY="300dp" />
 
         <TextView
             android:id="@+id/txtQuit"
@@ -57,8 +57,8 @@
             android:textColor="#FFFFFF"
             android:textSize="36sp"
             android:textStyle="bold"
-            android:translationX="165"
-            android:translationY="575" />
+            android:translationX="165dp"
+            android:translationY="575dp" />
 
         <TextView
             android:id="@+id/txtReminder"
@@ -67,8 +67,8 @@
             android:gravity="center"
             android:text="Reminder: Tap whem the blue square contacts the red square"
             android:textColor="#FFFFFF"
-            android:translationX="125"
-            android:translationY="630" />
+            android:translationX="125dp"
+            android:translationY="630dp" />
 
         <ImageButton
             android:id="@+id/btnSettings"
@@ -78,7 +78,7 @@
             android:rotation="180"
             android:scaleX="2"
             android:scaleY="-2"
-            android:translationX="350"
+            android:translationX="350dp"
             app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
     </FrameLayout>
 

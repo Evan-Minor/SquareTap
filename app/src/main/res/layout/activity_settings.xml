@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="#888282"
     android:orientation="vertical"
     tools:context=".settings">
@@ -21,8 +22,8 @@
         android:layout_width="243dp"
         android:layout_height="270dp"
         android:background="#B3A8A8"
-        android:translationX="90"
-        android:translationY="15">
+        android:translationX="90dp"
+        android:translationY="15dp">
 
         <TableRow
             android:layout_width="match_parent"
@@ -48,8 +49,8 @@
         android:text="Reset Score"
         android:textColor="#000000"
         android:textSize="24sp"
-        android:translationX="90"
-        android:translationY="-260" />
+        android:translationX="90dp"
+        android:translationY="-260dp" />
 
     <Button
         android:id="@+id/btnQuit"
@@ -58,8 +59,8 @@
         android:text="Quit"
         android:textColor="#000000"
         android:textSize="24sp"
-        android:translationX="90"
-        android:translationY="-270" />
+        android:translationX="90dp"
+        android:translationY="-270dp" />
 
     <Button
         android:id="@+id/btnRetuen"
@@ -68,7 +69,7 @@
         android:text="Return"
         android:textColor="#000000"
         android:textSize="24sp"
-        android:translationX="90"
-        android:translationY="-280" />
+        android:translationX="90dp"
+        android:translationY="-280dp" />
 
 </LinearLayout>
