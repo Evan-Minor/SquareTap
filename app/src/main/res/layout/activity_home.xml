@@ -105,10 +105,9 @@
 
         <Button
             android:id="@+id/btnTrigger"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:visibility="invisible" />
-
+            android:layout_width="397dp"
+            android:layout_height="97dp"
+            android:visibility="visible" />
 
 
     </FrameLayout>
