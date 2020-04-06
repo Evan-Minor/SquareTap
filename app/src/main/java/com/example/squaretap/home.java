@@ -86,7 +86,6 @@ public class home extends AppCompatActivity {
             if (AUTO_HIDE) {
                 delayedHide(AUTO_HIDE_DELAY_MILLIS);
             }
-            finish();
             return false;
         }
     };
@@ -120,6 +119,7 @@ public class home extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(home.this, play.class));
+                finish();
             }
         });
     }
