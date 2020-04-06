@@ -21,6 +21,7 @@ public class play extends AppCompatActivity {
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
      */
+
     private static final boolean AUTO_HIDE = true;
 
     /**
@@ -93,6 +94,8 @@ public class play extends AppCompatActivity {
 
         setContentView(R.layout.activity_play);
 
+        ImageButton imgBtn = (ImageButton) findViewById(R.id.btnSettings);
+
         mVisible = true;
         mControlsView = findViewById(R.id.fullscreen_content_controls);
         mContentView = findViewById(R.id.fullscreen_content);
@@ -109,9 +112,9 @@ public class play extends AppCompatActivity {
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
-        ImageButton btn = (ImageButton) findViewById(R.id.btnSettings);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+
+        imgBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(play.this, settings.class));
